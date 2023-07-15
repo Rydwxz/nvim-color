@@ -1,4 +1,3 @@
--- Colorscheme
 -- with Treesitter, Typescript, LSP supported
 -- colors from colorsx cloud (defunct website)
 local colors = require("colors")
@@ -171,6 +170,27 @@ local sunset_cloud = function()
 end
 
 local radioactive = function()
+	return {
+		"#282822",
+		"#e3e3a8",
+		"#56417a",
+		"#aeae98",
+		"#7b6c97",
+		"#666655",
+		"#dfdfa9",
+		"#a39778",
+		"#74745d",
+		"#cd749c",
+		"#a38c78",
+		"#bbbc57",
+		"#bbbc57",
+		"#424234",
+		"#a2a284",
+		"#d9d9cf",
+	}
+end
+
+local black_hole_sun = function()
 	return {
 		"#282822",
 		"#e3e3a8",
