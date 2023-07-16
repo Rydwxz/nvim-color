@@ -3,8 +3,6 @@
 local colors = require("colors")
 local s = require("style")
 
--- Merge a list of list-like tables togeter
--- { {'x'}, {'y'} } -> {'x', 'y'}
 local merge = function(list)
 	local acc = {}
 
@@ -171,12 +169,12 @@ end
 
 local radioactive = function()
 	return {
-		"#282822",
-		"#e3e3a8",
+		"#171313",
+		"#ff3b3b",
 		"#56417a",
-		"#aeae98",
-		"#7b6c97",
-		"#666655",
+		"#90f5e7",
+		"#9e45a1",
+		"#ffe047",
 		"#dfdfa9",
 		"#a39778",
 		"#74745d",
@@ -190,26 +188,7 @@ local radioactive = function()
 	}
 end
 
-local black_hole_sun = function()
-	return {
-		"#282822",
-		"#e3e3a8",
-		"#56417a",
-		"#aeae98",
-		"#7b6c97",
-		"#666655",
-		"#dfdfa9",
-		"#a39778",
-		"#74745d",
-		"#cd749c",
-		"#a38c78",
-		"#bbbc57",
-		"#bbbc57",
-		"#424234",
-		"#a2a284",
-		"#d9d9cf",
-	}
-end
+
 
 local vimscript = function(c)
 	return {
